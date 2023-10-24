@@ -1,1 +1,1 @@
-web: build/install/com.tioooo/bin/com.tioooo
+web: ./build/install/vainglory-wiki-ktor/bin/vainglory-wiki-ktor
