@@ -1,1 +1,1 @@
-web: build/install/com.tioooo/bin/com.tiooooo
+web: build/install/com.tioooo/bin/com.tioooo
