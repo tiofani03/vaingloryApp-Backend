@@ -7,6 +7,7 @@ data class Hero(
     val id: Int,
     val name: String,
     val image: String,
+    val imageBackground: String,
     val desc: String,
     val power: List<PowerStatus>,
     val role: String,
@@ -19,8 +20,8 @@ data class Hero(
 @Serializable
 data class PowerStatus(
     val name: String,
-    val currentValue: Int,
-    val maxValue: Int,
+    val currentValue: Double,
+    val maxValue: Double,
 )
 
 @Serializable
