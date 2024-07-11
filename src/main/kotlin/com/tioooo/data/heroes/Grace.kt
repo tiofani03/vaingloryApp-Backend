@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val grace = Hero(
@@ -55,5 +52,10 @@ val grace = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory/images/3/30/Grace_skinteaparty%28L%29.jpg/revision/latest?cb=20190117084841",
             skinType = SKIN.LEGENDARY,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffd0b038,
+        darkVibrant = 0xff882030,
+        onDarkVibrant = 0xa2ffffff,
     )
 )

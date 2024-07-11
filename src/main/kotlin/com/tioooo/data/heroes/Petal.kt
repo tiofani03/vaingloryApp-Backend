@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val petal = Hero(
@@ -66,5 +63,10 @@ val petal = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory_gamepedia/images/a/a4/PSPetalLE.jpg/revision/latest/scale-to-width-down/1000?cb=20161217131950",
             skinType = SKIN.LIMITED_EDITION,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffd0c028,
+        darkVibrant = 0xff702020,
+        onDarkVibrant = 0x91ffffff,
     )
 )

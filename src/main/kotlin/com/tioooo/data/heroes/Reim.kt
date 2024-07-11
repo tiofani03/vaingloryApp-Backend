@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val reim = Hero(
@@ -73,5 +70,10 @@ val reim = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2016/01/Reim_Deathless-web.png",
             skinType = SKIN.RARE,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xfff0c840,
+        darkVibrant = 0xff602828,
+        onDarkVibrant = 0x8bffffff,
     )
 )

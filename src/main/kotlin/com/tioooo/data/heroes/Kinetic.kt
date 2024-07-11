@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.ATTACK_TYPE.MELEE
 import com.tioooo.utils.ATTACK_TYPE.RANGED
 import com.tioooo.utils.Constants
@@ -59,5 +56,10 @@ val kinetic = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory/images/4/41/Kinetic_skinenforcer%28R%29.jpg/revision/latest?cb=20190119023825",
             skinType = SKIN.RARE,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xff28d8b8,
+        darkVibrant = 0xff209888,
+        onDarkVibrant = 0xbe000000,
     )
 )

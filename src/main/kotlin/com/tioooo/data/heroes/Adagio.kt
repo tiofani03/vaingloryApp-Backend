@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val adagio = Hero(
@@ -60,5 +57,10 @@ val adagio = Hero(
             skinImage = "https://firebasestorage.googleapis.com/v0/b/notess-c8095.appspot.com/o/heroes%2Fadagio%2FAdagioT3Flat.jpg?alt=media&token=b5f4cbf3-66cf-48b3-aa5a-7cd806de353c",
             skinType = SKIN.LEGENDARY,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xFF28A8E8,
+        darkVibrant = 0xFF105878,
+        onDarkVibrant = 0xADFFFFFF,
     )
 )

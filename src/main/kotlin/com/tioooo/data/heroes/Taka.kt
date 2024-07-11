@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val taka = Hero(
@@ -75,5 +72,10 @@ val taka = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka_School_Days-web.png",
             skinType = SKIN.LEGENDARY,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xFFD0A850,
+        darkVibrant = 0xFF1E1E1E,
+        onDarkVibrant = 0xFFFFFFFF,
     )
 )

@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val idris = Hero(
@@ -65,5 +62,10 @@ val idris = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2016/12/Horus_Idris-web.png",
             skinType = SKIN.EPIC,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xfff8f808,
+        darkVibrant = 0xff181028,
+        onDarkVibrant = 0x74ffffff,
     )
 )

@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val glaive = Hero(
@@ -71,5 +68,10 @@ val glaive = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2017/08/King_Glaive_1000px.jpg",
             skinType = SKIN.EPIC,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffd09820,
+        darkVibrant = 0xff801008,
+        onDarkVibrant = 0x99ffffff,
     )
 )

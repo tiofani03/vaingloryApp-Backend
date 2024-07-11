@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val baptiste = Hero(
@@ -60,5 +57,10 @@ val baptiste = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2017/09/baptiste_scarecrow_painting1000px.jpg",
             skinType = SKIN.EPIC,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffc04858,
+        darkVibrant = 0xff602020,
+        onDarkVibrant = 0x89ffffff,
     )
 )

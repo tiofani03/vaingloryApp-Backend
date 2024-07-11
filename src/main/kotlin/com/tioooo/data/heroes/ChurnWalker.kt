@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val churnWalker = Hero(
@@ -51,5 +48,10 @@ val churnWalker = Hero(
             skinImage = "https://dmu9n6at1rzsj.cloudfront.net/original/2X/e/e83f8afac1298535cc9f1bef80ad9acbf7536557.jpeg",
             skinType = SKIN.RARE,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffc0a058,
+        darkVibrant = 0xFF1E1E1E,
+        onDarkVibrant = 0xFFFFFFFF,
     )
 )

@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val samuel = Hero(
@@ -59,5 +56,10 @@ val samuel = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2016/09/Samuel_Cuber-web.png",
             skinType = SKIN.EPIC,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xfff800f8,
+        darkVibrant = 0xFF1E1E1E,
+        onDarkVibrant = 0xFFFFFFFF,
     )
 )

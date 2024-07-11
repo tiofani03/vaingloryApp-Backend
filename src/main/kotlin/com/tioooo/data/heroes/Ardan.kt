@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val ardan = Hero(
@@ -68,5 +65,10 @@ val ardan = Hero(
             skinImage = "https://firebasestorage.googleapis.com/v0/b/notess-c8095.appspot.com/o/heroes%2Fardan%2FardanG.webp?alt=media&token=f2a4e72b-8a91-443a-8bdb-25ab61669bb6",
             skinType = SKIN.EPIC,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffb83838,
+        darkVibrant = 0xff281010,
+        onDarkVibrant = 0x75ffffff,
     )
 )

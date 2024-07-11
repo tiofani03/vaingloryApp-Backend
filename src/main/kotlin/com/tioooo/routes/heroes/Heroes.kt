@@ -3,12 +3,10 @@ package com.tioooo.routes.heroes
 import com.tioooo.model.ApiResponse
 import com.tioooo.model.Hero
 import com.tioooo.repository.HeroRepository
-import io.ktor.http.HttpStatusCode
-import io.ktor.server.application.call
-import io.ktor.server.response.respond
-import io.ktor.server.routing.Route
-import io.ktor.server.routing.get
-import io.ktor.server.routing.route
+import io.ktor.http.*
+import io.ktor.server.application.*
+import io.ktor.server.response.*
+import io.ktor.server.routing.*
 import org.koin.ktor.ext.inject
 
 fun Route.heroes() {
@@ -20,6 +18,25 @@ fun Route.heroes() {
                 val page = call.request.queryParameters["page"]?.toInt() ?: 1
                 val limit = call.request.queryParameters["limit"]?.toInt() ?: 5
                 val name = call.request.queryParameters["name"]
+                val role = call.request.queryParameters["role"]
+
+                role?.let {
+                    val apiResponse = heroRepository.getHeroByRole(role)
+                    call.respond(
+                        message = apiResponse,
+                        status = HttpStatusCode.OK,
+                    )
+                } ?: run {
+                    val apiResponse = heroRepository.getAllHeroes(
+                        page = page,
+                        limit = limit,
+                    )
+                    call.respond(
+                        message = apiResponse,
+                        status = HttpStatusCode.OK,
+                    )
+                }
+
 
                 name?.let {
                     val apiResponse = heroRepository.searchHeroes(name)

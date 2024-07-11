@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val rona = Hero(
@@ -73,5 +70,10 @@ val rona = Hero(
             skinType = SKIN.LIMITED_EDITION,
         ),
 
-        )
+        ),
+    stateColor = StateColor(
+        vibrant = 0xffb82820,
+        darkVibrant = 0xff782820,
+        onDarkVibrant = 0x98ffffff,
+    )
 )

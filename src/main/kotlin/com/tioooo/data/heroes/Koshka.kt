@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val koshka = Hero(
@@ -69,5 +66,10 @@ val koshka = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory_gamepedia/images/b/bb/RLKoshkaLE.jpg/revision/latest?cb=20161218150305",
             skinType = SKIN.LIMITED_EDITION,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xfff0c040,
+        darkVibrant = 0xff280808,
+        onDarkVibrant = 0x75ffffff,
     )
 )

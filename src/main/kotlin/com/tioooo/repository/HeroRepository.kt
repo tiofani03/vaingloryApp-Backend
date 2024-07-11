@@ -12,4 +12,6 @@ interface HeroRepository {
 
     suspend fun getHeroById(id: Int): ApiResponse<Hero>
 
+    suspend fun getHeroByRole(role: String): ApiResponse<List<Hero>>
+
 }

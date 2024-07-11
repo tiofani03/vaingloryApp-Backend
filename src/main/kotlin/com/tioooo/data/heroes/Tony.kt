@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.ATTACK_TYPE.MELEE
 import com.tioooo.utils.Constants
 import com.tioooo.utils.POSITION
@@ -58,5 +55,10 @@ val tony = Hero(
             skinImage = "https://en.vainglorygame.com/wp-content/uploads/2018/03/1000px_tony_streamknight_final_splash.jpg",
             skinType = SKIN.RARE,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffa0b040,
+        darkVibrant = 0xFF1E1E1E,
+        onDarkVibrant = 0xFFFFFFFF,
     )
 )

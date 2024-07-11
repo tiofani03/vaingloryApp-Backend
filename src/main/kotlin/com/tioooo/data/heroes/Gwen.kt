@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val gwen = Hero(
@@ -62,5 +59,10 @@ val gwen = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory/images/a/a2/Gwen_skinsnowbunny%28E%29.jpg/revision/latest?cb=20190119163951",
             skinType = SKIN.EPIC,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xff903028,
+        darkVibrant = 0xff501010,
+        onDarkVibrant = 0x7fffffff,
     )
 )

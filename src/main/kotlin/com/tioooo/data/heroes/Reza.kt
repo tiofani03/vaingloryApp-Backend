@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val reza = Hero(
@@ -66,5 +63,10 @@ val reza = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory/images/e/ee/Reza_skinredlantern%28SE%29.jpg/revision/latest?cb=20190120134245",
             skinType = SKIN.SPECIAL_EDITION,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xfff0d810,
+        darkVibrant = 0xff681820,
+        onDarkVibrant = 0x8bffffff,
     )
 )

@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val baron = Hero(
@@ -55,5 +52,10 @@ val baron = Hero(
             skinImage = "https://kr.vainglorygame.com/wp-content/uploads/2017/10/Fy_or_die_baron_1000px.jpg",
             skinType = SKIN.LEGENDARY,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xfff0d810,
+        darkVibrant = 0xff986810,
+        onDarkVibrant = 0xf1ffffff,
     )
 )

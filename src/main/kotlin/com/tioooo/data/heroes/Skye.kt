@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val skye = Hero(
@@ -69,5 +66,10 @@ val skye = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2015/09/Skye_RideorDie-web.png",
             skinType = SKIN.LEGENDARY,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xff803020,
+        darkVibrant = 0xff583028,
+        onDarkVibrant = 0x8bffffff,
     )
 )

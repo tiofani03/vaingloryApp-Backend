@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val blackfeather = Hero(
@@ -66,5 +63,10 @@ val blackfeather = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2015/11/Blackfeather-LoveBites-web.png",
             skinType = SKIN.SPECIAL_EDITION,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffd04840,
+        darkVibrant = 0xff682028,
+        onDarkVibrant = 0x8dffffff,
     )
 )

@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val krul = Hero(
@@ -66,5 +63,10 @@ val krul = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory_gamepedia/images/6/60/SPKrulSE.jpg/revision/latest/scale-to-width-down/1000?cb=20161230220055",
             skinType = SKIN.SPECIAL_EDITION,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xff20f0f0,
+        darkVibrant = 0xff286860,
+        onDarkVibrant = 0xc3ffffff,
     )
 )

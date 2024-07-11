@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val celeste = Hero(
@@ -75,5 +72,10 @@ val celeste = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2015/05/Celeste_1.22_splash_edit.jpg",
             skinType = SKIN.SPECIAL_EDITION,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffe0c020,
+        darkVibrant = 0xff583028,
+        onDarkVibrant = 0x8bffffff,
     )
 )

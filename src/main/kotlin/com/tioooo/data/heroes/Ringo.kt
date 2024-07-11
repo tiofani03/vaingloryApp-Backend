@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val ringo = Hero(
@@ -65,5 +62,10 @@ val ringo = Hero(
             skinImage = "https://id.vainglorygame.com/wp-content/uploads/2017/08/painting_ringo_Black_Edit.jpg",
             skinType = SKIN.RARE,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0x1e1e1e,
+        darkVibrant = 0xff482020,
+        onDarkVibrant = 0x7effffff,
     )
 )

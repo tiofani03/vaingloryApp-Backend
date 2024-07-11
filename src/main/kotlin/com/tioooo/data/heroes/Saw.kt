@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val saw = Hero(
@@ -65,5 +62,10 @@ val saw = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory_gamepedia/images/2/2d/SPSAWSE.jpg/revision/latest/scale-to-width-down/1000?cb=20161222200413",
             skinType = SKIN.SPECIAL_EDITION,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffd09018,
+        darkVibrant = 0xffa08830,
+        onDarkVibrant = 0xbc000000,
     )
 )

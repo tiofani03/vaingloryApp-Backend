@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.ATTACK_TYPE.MELEE
 import com.tioooo.utils.Constants
 import com.tioooo.utils.POSITION
@@ -54,5 +51,10 @@ val kensei = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory/images/3/32/Kensei_skintaizenboss%28R%29.jpg/revision/latest?cb=20190119152135",
             skinType = SKIN.RARE,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xff802828,
+        darkVibrant = 0xff583028,
+        onDarkVibrant = 0x8bffffff,
     )
 )

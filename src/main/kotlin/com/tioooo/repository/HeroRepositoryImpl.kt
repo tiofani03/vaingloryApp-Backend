@@ -58,4 +58,13 @@ class HeroRepositoryImpl : HeroRepository {
             )
         }
     }
+
+    override suspend fun getHeroByRole(role: String): ApiResponse<List<Hero>> {
+        return ApiResponse(
+            success = true,
+            message = "Success",
+            data = heroesData.filter { it.role == role },
+            lastUpdated = System.currentTimeMillis(),
+        )
+    }
 }

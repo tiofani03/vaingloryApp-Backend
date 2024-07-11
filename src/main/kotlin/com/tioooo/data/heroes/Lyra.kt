@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val lyra = Hero(
@@ -58,5 +55,10 @@ val lyra = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2016/06/Lyra_Unicorn-web.jpg",
             skinType = SKIN.LEGENDARY,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffc85060,
+        darkVibrant = 0xff481818,
+        onDarkVibrant = 0x7dffffff,
     )
 )

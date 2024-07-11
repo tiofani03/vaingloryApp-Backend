@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val silvernail = Hero(
@@ -54,5 +51,10 @@ val silvernail = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory/images/4/4c/Silvernail_skinDD%28R%29.jpg/revision/latest/scale-to-width-down/1000?cb=20190121150310",
             skinType = SKIN.RARE,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffa0b040,
+        darkVibrant = 0xFF1E1E1E,
+        onDarkVibrant = 0xFFFFFFFF,
     )
 )

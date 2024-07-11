@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val lance = Hero(
@@ -62,5 +59,10 @@ val lance = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2016/06/Lance_gladiator-web.png",
             skinType = SKIN.EPIC,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xfff8f050,
+        darkVibrant = 0xffa02818,
+        onDarkVibrant = 0xb7ffffff,
     )
 )

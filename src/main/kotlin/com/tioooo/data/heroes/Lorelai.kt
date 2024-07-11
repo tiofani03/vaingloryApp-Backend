@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 import com.tioooo.utils.ATTACK_TYPE.MELEE
 
@@ -59,5 +56,10 @@ val lorelai = Hero(
             skinImage = "https://dmu9n6at1rzsj.cloudfront.net/uploads/db3297/optimized/2X/0/0be63e6f31f0286b99fad7d94148c6de473106e0_2_1380x776.jpeg",
             skinType = SKIN.EPIC,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xff4888a0,
+        darkVibrant = 0xff482038,
+        onDarkVibrant = 0x7fffffff,
     )
 )

@@ -15,6 +15,7 @@ data class Hero(
     val position: String,
     val skills: List<SkillStatus>,
     val skins: List<SkinStatus>,
+    val stateColor: StateColor,
 )
 
 @Serializable
@@ -36,4 +37,11 @@ data class SkinStatus(
     val skinName: String,
     val skinImage: String,
     val skinType: String = "Default"
+)
+
+@Serializable
+data class StateColor(
+    val vibrant: Long,
+    val darkVibrant: Long,
+    val onDarkVibrant: Long,
 )

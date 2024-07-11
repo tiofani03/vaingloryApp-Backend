@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val vox = Hero(
@@ -55,5 +52,10 @@ val vox = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory/images/f/f8/Vox_skinschooldays%28E%29.jpg/revision/latest?cb=20190119160930",
             skinType = SKIN.EPIC,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xfff07838,
+        darkVibrant = 0xff380808,
+        onDarkVibrant = 0x78ffffff,
     )
 )

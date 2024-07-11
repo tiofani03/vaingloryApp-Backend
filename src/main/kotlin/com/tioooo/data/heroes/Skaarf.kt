@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val skaarf = Hero(
@@ -75,5 +72,10 @@ val skaarf = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2017/09/Skaarf_CNY_blue-web.png",
             skinType = SKIN.SPECIAL_EDITION,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xfff0c038,
+        darkVibrant = 0xff502018,
+        onDarkVibrant = 0x81ffffff,
     )
 )

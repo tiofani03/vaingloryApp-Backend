@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val grumpjaw = Hero(
@@ -55,5 +52,10 @@ val grumpjaw = Hero(
             skinImage = "https://jp.vainglorygame.com/wp-content/uploads/2017/05/Grumpjaw_dog_Splash_1000px.jpg",
             skinType = SKIN.RARE,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xff18c8b0,
+        darkVibrant = 0xff280810,
+        onDarkVibrant = 0x75ffffff,
     )
 )

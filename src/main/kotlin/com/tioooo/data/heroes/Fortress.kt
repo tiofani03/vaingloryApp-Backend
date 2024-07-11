@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val fortress = Hero(
@@ -70,6 +67,10 @@ val fortress = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2015/08/WinterFortressSplash.png",
             skinType = SKIN.LIMITED_EDITION,
         ),
-
-        )
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffe8a840,
+        darkVibrant = 0xff682018,
+        onDarkVibrant = 0x8cffffff,
+    )
 )

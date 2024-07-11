@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.ATTACK_TYPE.MELEE
 import com.tioooo.utils.ATTACK_TYPE.RANGED
 import com.tioooo.utils.Constants
@@ -68,5 +65,10 @@ val malene = Hero(
             skinName = "Default",
             skinImage = "https://i.ytimg.com/vi/9H2Xp_HWB8o/maxresdefault.jpg"
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xff50b8d0,
+        darkVibrant = 0xff582838,
+        onDarkVibrant = 0x88ffffff,
     )
 )

@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val joule = Hero(
@@ -65,5 +62,10 @@ val joule = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule_SnowMonster-web.png",
             skinType = SKIN.SPECIAL_EDITION,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffe8c850,
+        darkVibrant = 0xff186058,
+        onDarkVibrant = 0xb3ffffff,
     )
 )

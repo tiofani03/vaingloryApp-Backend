@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 
 val catherine = Hero(
@@ -75,5 +72,10 @@ val catherine = Hero(
             skinImage = "https://static.wikia.nocookie.net/vainglory_gamepedia/images/9/93/WWCatherineLE.jpg/revision/latest/scale-to-width-down/1000?cb=20161218173206",
             skinType = SKIN.LIMITED_EDITION,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xffd84028,
+        darkVibrant = 0xff601008,
+        onDarkVibrant = 0x86ffffff,
     )
 )

@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.ATTACK_TYPE.MELEE
 import com.tioooo.utils.Constants
 import com.tioooo.utils.POSITION
@@ -54,5 +51,10 @@ val anka = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2019/02/Anka_Feathered_Splash-1000x563.png",
             skinType = SKIN.EPIC,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xFFD0A850,
+        darkVibrant = 0xFF1E1E1E,
+        onDarkVibrant = 0xFFFFFFFF,
     )
 )

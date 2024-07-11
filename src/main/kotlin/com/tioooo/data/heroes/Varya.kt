@@ -1,9 +1,6 @@
 package com.tioooo.data.heroes
 
-import com.tioooo.model.Hero
-import com.tioooo.model.PowerStatus
-import com.tioooo.model.SkillStatus
-import com.tioooo.model.SkinStatus
+import com.tioooo.model.*
 import com.tioooo.utils.*
 import com.tioooo.utils.ATTACK_TYPE.MELEE
 
@@ -53,5 +50,10 @@ val varya = Hero(
             skinImage = "https://www.vainglorygame.com/wp-content/uploads/2017/11/1000px_Winter_Varya_Skin_edit_final.jpg",
             skinType = SKIN.RARE,
         ),
+    ),
+    stateColor = StateColor(
+        vibrant = 0xff0828c8,
+        darkVibrant = 0xff582030,
+        onDarkVibrant = 0x85ffffff,
     )
 )
